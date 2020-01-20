@@ -71,7 +71,7 @@ public class BST<E extends Comparable<E>> {
      *
      * @param e
      */
-    private void add(E e) {
+    public void add(E e) {
         root = add(root, e);
     }
 
